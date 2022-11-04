@@ -49,12 +49,20 @@ font-family:  "Montserrat";
     transform: rotate(0);
   }
 }
+#healthrecords{
+  padding: 30px 100px ;
+  position: relative;
+  z-index: 1;
+  background-color:#B8E8FC;
+
+
+}
 #features{
 
     padding: 7% 15% ;
     background-color: #fff;
     position: relative;
-    z-index: 1;
+
 
   }
   .alpha{
@@ -103,6 +111,10 @@ font-family:  "Montserrat";
 .press-image{
   width:12%;
   padding: 4%;
+}
+.patient{
+  width:30%;
+  border-right: 100%;
 }
 .carousel-item{
   padding: 5% 15%;
